@@ -22,11 +22,13 @@ def reduce_to_total (source_array, start = 0)
   return total
 end
 def reduce_to_all_true(source_array)
-  while source_array do
-  if true
+  counter = 0
+  while counter < source_array.length do
+  if souce_array[counter] true
     puts be_truthy
-  else puts nil
+  else puts false
     end
+    counter += 1
   end
 end
 
