@@ -24,7 +24,7 @@ end
 def reduce_to_all_true(source_array)
   counter = 0
   while counter < source_array.length do
-  if souce_array[counter]
+  if source_array[counter]
     puts "truthy"
   else puts false
     end
