@@ -37,6 +37,7 @@ def reduce_to_any_true(source_array)
     if source_array[counter]
       return true
     end
+    counter +=1
   end 
 end 
 
